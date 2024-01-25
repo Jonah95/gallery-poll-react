@@ -80,6 +80,7 @@ const configureCors = (origin) => ({
   origin,
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization'],
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 });
 
 app.use(cors(configureCors('https://gallery-poll-react.vercel.app',)));
