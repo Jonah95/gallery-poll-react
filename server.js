@@ -82,8 +82,8 @@ const configureCors = (origin) => ({
   allowedHeaders: ['Content-Type', 'Authorization'],
 });
 
-app.use(cors(configureCors('http://localhost:3000')));
-app.options('*', cors(configureCors('http://localhost:3000')));
+app.use(cors(configureCors('https://gallery-poll-react.vercel.app',)));
+app.options('*', cors(configureCors('https://gallery-poll-react.vercel.app')));
 
 app.post('/saveUserData', async (req, res) => {
   try {
