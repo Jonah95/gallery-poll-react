@@ -1,0 +1,20 @@
+.go-back-button {
+  width: 10%;
+  padding: 0.5rem;
+  background-color: #6D15A7;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: all ease 300ms;
+}
+
+.go-back-button:hover {
+background-color: hsl(276, 78%, 50%);
+}
+
+.home-lyt {
+  margin-top: 200px;
+}

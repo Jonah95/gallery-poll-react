@@ -1,0 +1,99 @@
+/* Entry.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 8rem;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* ------------------------------------- */
+
+/* Entry.css */
+/* .entry-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+}
+
+/* .image-container {
+  flex: 1;
+  padding: 20px;
+} */
+
+.square-image {
+  width: 20rem;
+  max-width: 100%; /* Adjust the size as needed */
+  margin: 0 auto;
+}
+
+.enter-gallery-button {
+  width: 30%;
+  padding: 1rem;
+  background-color: #6D15A7;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: all ease 300ms;
+}
+
+.enter-gallery-button:hover {
+  background-color: hsl(276, 78%, 50%);
+}
+
+.entry-container {
+  max-width: 80rem; /* Set your desired max width */
+  margin: 0 auto; /* Center the container */
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.text-container {
+  max-width: 60%; /* Adjust as needed */
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Adjust as needed */
+  margin-top: 2.5rem;
+}
+
+.grid-item img {
+  width: 100%; /* Make sure images fill their containers */
+  height: auto;
+}

@@ -1,0 +1,50 @@
+.vote-button {
+  width: 50%;
+  padding: 0.5rem;
+  background-color: #6D15A7;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  transition: all ease 300ms;
+  /* margin-left: 7rem; */
+}
+
+.vote-button:hover {
+  background-color: hsl(276, 78%, 50%);
+  } 
+
+.field {
+  margin: .5rem 0;
+}
+
+.alert-success {
+  padding: .2rem;
+  width: 90%;
+}
+
+.modal-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+
+.vote-button::after {
+  content: "Vote❤️";
+  transition: all ease 300ms;
+  }
+  .vote-button:hover::after {
+   content: "Thank you💘";
+   
+  }
+  
+  .vote-button:hover {
+    background-color: hsl(276, 78%, 50%);
+  }
+
+  .nme-head {
+    margin-top: 1rem;
+  }
