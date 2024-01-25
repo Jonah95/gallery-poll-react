@@ -16,15 +16,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Home from './Home';
 import Entry from './Entry';
+import Home from './Home';
+
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/Home" element={<Home/>} />
-        <Route path="/" element={<Entry/>} />
+        <Route path="/Entry" element={<Entry/>} />
+        <Route path="/" element={<Home/>} />
       </Routes>
     </Router>
   );
