@@ -26,7 +26,7 @@ class Model extends React.Component {
 
     try {
       // Send the user data to the server
-      await axios.post('https://gallery-poll-react.vercel.app', {
+      await axios.head('https://gallery-poll-react.vercel.app/saveUserData', {
         userName: this.state.userName,
         buttonClicks: this.state.buttonClicks,
         title: this.state.title,
