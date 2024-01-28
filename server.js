@@ -61,7 +61,7 @@ const cors = require('cors');
 const app = express();
 const PORT = 3001;
 
-mongoose.connect('mongodb+srv://jonah:jonahrocks@cluster0.1c5uzxo.mongodb.net/userTest/?retryWrites=true&w=majority', {
+mongoose.connect('DATABASE_URL="mongodb+srv://jonah:jonahrocks@gallerypoll.7i8aymp.mongodb.net/react-gallery-poll-db/?retryWrites=true&w=majority"', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
