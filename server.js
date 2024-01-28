@@ -6,7 +6,7 @@
 // const app = express();
 // const PORT = 3001;
 
-// mongoose.connect('mongodb+srv://jonah-admin:jonahrocks@gallerypoll.7i8aymp.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
+// mongoose.connect('mongodb+srv://jonah:jonahrocks@cluster0.1c5uzxo.mongodb.net/userTest/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // const UserData = mongoose.model('UserData', {
 //   userName: String,
